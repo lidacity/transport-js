@@ -5,10 +5,10 @@
 
 Данные хранятся в виде массивов JavaScript. На этапе разработки HTML, CSS, JavaScript в отдельных файлах - для удобства доработки, отладки и тестирования. Итоговое расписание в одном файле - для удобства распространения.
 
-Для сборки выполнить build.php (PHP 5.4+). Результат будет в каталоге `result`:
+Для сборки выполнить `build.php` (PHP 5.4+). Результат будет в каталоге `result`:
 
-    * `test.html` - документ с тестовыми данными, для проверки
-    * `_html.php` - шаблон для [конструктора расписания транспорта](http://luxovicy.ru/transport)
+* `test.html` - документ с тестовыми данными, для проверки
+* `_html.php` - шаблон для [конструктора расписания транспорта](http://luxovicy.ru/transport)
 
 
 Назначение и структура файлов
@@ -35,4 +35,5 @@ build.php - скрипт для сборки
 Для оформления расписания применяется [CSS-фреймворк W3.CSS](http://www.w3schools.com/w3css/). Благодарю его разработчиков - авторов ресурса [W3Schools.com](http://www.w3schools.com).
 
 > W3.CSS is a small, fast, and modern CSS framework with built-in responsiveness.
+
 > W3.CSS is free to use. No license is necessary.
