@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title><!-- TITLE --></title>
+<style>
+<!-- CSS -->
+</style>
+</head>
+<body class="w3-light-grey w3-padding-small">
+
+<noscript>
+    <div class="w3-row w3-padding-small">
+        <div class="w3-card-4 w3-yellow">
+            <div class="w3-container">
+                <p>Для работы расписания необходимо включить (разрешить) выполнение JavaScript</p>
+            </div>
+        </div>
+    </div>
+</noscript>
+
+<div id="form" class="w3-row">
+    <div class="w3-col m3 l3 w3-padding-small">
+        <div class="w3-group">
+            <label class="w3-label">Начало:</label>
+            <button class="w3-btn w3-round" type="reset" onclick="location.reload()">Очистить выбор</button>
+        </div>
+    </div>
+    <div class="w3-col m3 l3 w3-padding-small">
+        <div class="w3-group">
+            <label class="w3-label">Откуда:</label>
+            <select class="w3-select w3-large" id="from"></select>
+        </div>
+    </div>
+    <div class="w3-col m3 l3 w3-padding-small">
+        <div class="w3-group">
+            <label class="w3-label">Куда:</label>
+            <select class="w3-select w3-large" id="to"></select>
+        </div>
+    </div>
+    <div class="w3-col m3 l3 w3-padding-small">
+        <div class="w3-group">
+            <label class="w3-label">Обратно:</label>
+            <button class="w3-btn w3-round w3-blue" id="revert" type="button">Переставить остановки</button>
+        </div>
+    </div>
+</div>
+
+<div id="empty" class="w3-row w3-padding-small" style="display:none">
+    <div class="w3-card-4 w3-blue-grey">
+        <div class="w3-container">
+            <p>Подходящие маршруты не найдены. Попробуйте выбрать другие остановки.</p>
+        </div>
+    </div>
+</div>
+
+<div id="same" class="w3-row w3-padding-small" style="display:none">
+    <div class="w3-card-4 w3-yellow">
+        <div class="w3-container">
+            <p>Конечная остановка совпадает с начальной. Ехать никуда не нужно?</p>
+        </div>
+    </div>
+</div>
+
+<div id="result">
+    <div class="w3-row">
+
+<!-- TEMPLATE
+        <div class="w3-col m3 l3 w3-padding-small">
+            <div class="w3-card-4 w3-white">
+                <header class="w3-container w3-center w3-teal">
+<p>(TITLE)</p>
+                </header>
+                <div class="w3-container">
+<p>(TEXT)</p>
+                </div>
+            </div>
+        </div>
+TEMPLATE -->
+
+        <div class="w3-col m3 l3 w3-padding-small">
+            <div class="w3-card-4 w3-white">
+                <header class="w3-container w3-center w3-teal">
+<p><!-- TITLE --></p>
+                </header>
+                <div class="w3-container w3-center">
+<p><img src="<!-- ICON -->"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-col m3 l3 w3-padding-small">
+            <div class="w3-card-4 w3-white">
+                <div class="w3-container">
+<p>Автор сборки (составитель):<br><!-- AUTHOR --></p>
+<p>Версия сборки: <!-- VERSION --></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-col m3 l3 w3-padding-small">
+            <div class="w3-card-4 w3-white">
+                <div class="w3-container">
+<p>Для сборки расписания в удобный для просмотра формат использован &laquo;Конструктор расписания транспорта&raquo;:<br><a href="http://luxovicy.ru/transport">luxovicy.ru/transport</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-col m3 l3 w3-padding-small">
+            <div class="w3-card-4 w3-white">
+                <div class="w3-container">
+<p><!-- HELP --></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</div>
+
+<script>
+<!-- JS -->
+</script>
+
+</body>
+</html>
