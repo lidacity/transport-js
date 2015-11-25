@@ -22,8 +22,8 @@ result/test.html - вариант для проверки, содержит те
 result/_html.php - шаблон для сборки через конструктор расписания транспорта
 
 src/transport.css - вставляется целиком, без изменений
-src/transport.js - поля для вставки помечены скобками (STOPS), (ROUTES), (TEMPLATE)
-src/transport.html - поля для вставки помечены комментариями <!-- CSS -->, <!-- JS -->, <!-- TITLE --> и т.п.
+src/transport.js - поля для вставки помечены символами подчеркивания: _STOPS_, _ROUTES_, _TEMPLATE_
+src/transport.html - поля для вставки помечены комментариями: <!-- CSS -->, <!-- JS -->, <!-- TITLE --> и т.п.
 
 build.php - скрипт для сборки
 ~~~

@@ -7,9 +7,9 @@
 
     // шаблон для вывода маршрута
     var tpl = {
-        title: '(TITLE)',
-        text: '(TEXT)',
-        block: '(TEMPLATE)'
+        title: '_TITLE_',
+        text: '_TEXT_',
+        block: '_TEMPLATE_'
     };
 
     // заполнить указанный список значениями
@@ -136,6 +136,6 @@
     };
 })(
     this.document,
-    (STOPS),
-    (ROUTES)
+    _STOPS_,
+    _ROUTES_
 );
