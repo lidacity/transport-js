@@ -6,4 +6,5 @@ Thumbs.db
 
 # windows utility
 _*.cmd
-/nbproject/private/
+
+/nbproject/
